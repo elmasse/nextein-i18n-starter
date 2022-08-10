@@ -3,7 +3,7 @@ title: Primer Publicación
 author: elmasse
 ---
 
-Esta es tu primer publicación. Felicitaciones! Visita la [documentación](https://nextein.now.sh/docs) y las [guias](https://nextein.now.sh/guides) de Nextein. Crea un blog increíble!
+Esta es tu primer publicación. Felicitaciones! Visita la [documentación](https://nextein.elmasse.io/docs) y las [guias](https://nextein.elmasse.io/guides) de Nextein. Crea un blog increíble!
 
 > Hints:
 > - Check the `pages/index.js` file to modify the blog list! 
