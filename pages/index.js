@@ -37,7 +37,7 @@ export default function Index({ posts }) {
             <article key={post.data.__id}>
               <header>
                 <h1>
-                  <Link href={'/[name]'} as={`/${post.data.name}`}><a>{post.data.title}</a></Link>
+                  <Link href={'/[name]'} as={`/${post.data.name}`}>{post.data.title}</Link>
                 </h1>
                 <p>
                   {author && `${writtenBy} ${author.name}`}

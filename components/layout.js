@@ -27,7 +27,7 @@ export default function Layout({ title, showNav = false, children }) {
         <title>{title}</title>
       </Head>
       <main>
-        {showNav && (<nav><Link href="/" passHref><a>{site.name}</a></Link></nav>)}
+        {showNav && (<nav><Link href="/">{site.name}</Link></nav>)}
 
         <div className='switcher'>{locales.map(l => (
           <div key={l} className={locale === l ? 'selected' : ''}  onClick={handleLanguageSwitch(l)}>{SWITCHER[locale][l]}</div>
@@ -77,5 +77,5 @@ export default function Layout({ title, showNav = false, children }) {
         }
       `}</style>
   </div>
-  )
+  );
 }
